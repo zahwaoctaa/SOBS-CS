@@ -38,6 +38,7 @@ app.post('/api/register_user', (req, res) => {
         // jika request berhasil
         res.status(201).json({ success: true, message: 'Berhasil insert data!' });
     });
+
 });
 
 // read data / get data
