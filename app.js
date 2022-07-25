@@ -58,7 +58,7 @@ app.post('/api/transaction', (req, res) => {
 
 });
 
-// read data / get data
+// read data / get data (mengambil data)
 app.get('/api/category', (req, res) => {
     // buat query sql
     const querySql = 'SELECT * FROM category';

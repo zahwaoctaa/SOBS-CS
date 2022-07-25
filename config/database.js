@@ -12,3 +12,5 @@ koneksi.connect((err) => {
     console.log('MySQL Connected...');
 });
 module.exports = koneksi;
+
+// setingan database
