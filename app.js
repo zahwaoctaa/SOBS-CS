@@ -26,7 +26,7 @@ app.post('/api/login_user', (req, res) => {
 app.post('/api/register_user', (req, res) => {
     // buat variabel penampung data dan query sql
     const data = { ...req.body };
-    const querySql = 'INSERT INTO users SET ?';
+    const querySql = 'INSERT INTO users set? ';
 
     // jalankan query
     koneksi.query(querySql, data, (err, rows, field) => {
